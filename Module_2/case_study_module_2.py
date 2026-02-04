@@ -12,7 +12,7 @@ non-numeric value is entered for the GPA, an error message is give and the
 user re-prompted to enter a valid GPA.
 '''
 
-while ((last_name := input("Input last name: ")) != "ZZZ"):
+while ((last_name := input("Input last name, or 'ZZZ' to quit: ")) != "ZZZ"):
     first_name = input("Input first name: ")
     while True:
         gpa = input("Input GPA: ")
