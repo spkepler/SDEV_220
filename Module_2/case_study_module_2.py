@@ -20,7 +20,7 @@ while ((last_name := input("Input last name, or 'ZZZ' to quit: ")) != "ZZZ"):
             gpa = float(gpa)
             break
         except ValueError:
-            print("GPA must me a numeric value.")
+            print("GPA must be a numeric value.")
 
     if gpa >= 3.5:
         print(f"{first_name} {last_name} has made the Dean's List.")
