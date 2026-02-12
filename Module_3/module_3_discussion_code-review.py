@@ -106,7 +106,7 @@ for character in character_list:
 print("\nInformal Greetings:")
 for character in character_list:
     print("\t",end='')
-    character.greet_user(False)
+    character.greet_user(formal=False)
 
 print("\nAbout the Characters:")
 for character in character_list:
