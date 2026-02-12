@@ -53,44 +53,51 @@ class User:
             print(f"Hey, {self.first_name}.")
 
 characters = [
-    {"first_name": "Sheldon",
+    {
+     "first_name": "Sheldon",
      "last_name":"Cooper",
      "title":"Dr.",
-     "occupation": "theoretical physicist",
+     "occupation": "Theoretical physicist",
      "addr_city": "Pasadena",
      "addr_state": "California",
      "Siblings":"George, Missy",
      "Awards":"Nobel Prize in Physics"
      },
-     {"first_name": "Leonard",
+     {
+     "first_name": "Leonard",
      "last_name":"Hofstadter",
      "title":"Dr.",
-     "occupation": "theoretical physicist",
+     "occupation": "Theoretical physicist",
      "addr_city": "Pasadena",
      "addr_state": "California",
      "Love Interests": "Penny, Priya Koothrappali, Dr. Stephanie Barnett, Leslie Winkle, Joyce Kim",
      "Felonies": "Blew up elevator trying to impress Joyce Kim, but never charged"        
      },
-     {"first_name": "Howard",
+     {
+     "first_name": "Howard",
      "last_name":"Wolowitz",
      "title":"Mr.",
-     "occupation": "engineer",
+     "occupation": "Engineer",
      "addr_city": "Pasadena",
      "addr_state": "California", 
-     "Other Occupations": "astronaut"       
+     "Other Occupations": "Astronaut",
+     "Allergies":"Peanuts"       
      },
-     {"first_name": "Penny",
+     {
+     "first_name": "Penny",
      "last_name":"Hofstadter",
      "title":"Mrs.",
-     "occupation": "waitress",
+     "occupation": "Waitress",
      "addr_city": "Pasadena",
      "addr_state": "California",
-     "Other Occupatons": "aspiring actress"       
+     "Other Occupatons": "Aspiring actress",  
+     "Claim to Fame": "Lead roles in 'Serial Ape-ist' and 'Serial Ape-ist 2: Monkey See, Monkey Kill'"    
      },
-     {"first_name": "Priya",
+     {
+     "first_name": "Priya",
      "last_name":"Koothrappali",
      "title":"Ms.",
-     "occupation": "attorney",
+     "occupation": "Attorney",
      "addr_city": "New Delhi",
      "addr_state": "India"        
      }
