@@ -60,7 +60,7 @@ characters = [
      "addr_city": "Pasadena",
      "addr_state": "California",
      "Siblings":"George, Missy",
-     "Awards":"Nobel Prize"
+     "Awards":"Nobel Prize in Physics"
      },
      {"first_name": "Leonard",
      "last_name":"Hofstadter",
@@ -85,7 +85,7 @@ characters = [
      "occupation": "waitress",
      "addr_city": "Pasadena",
      "addr_state": "California",
-     "Other Occupatons": "Aspiring actress"       
+     "Other Occupatons": "aspiring actress"       
      },
      {"first_name": "Priya",
      "last_name":"Koothrappali",
