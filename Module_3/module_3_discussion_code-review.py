@@ -90,7 +90,7 @@ characters = [
      "occupation": "Waitress",
      "addr_city": "Pasadena",
      "addr_state": "California",
-     "Other Occupatons": "Aspiring actress",  
+     "Other Occupations": "Aspiring actress",  
      "Claim to Fame": "Lead roles in 'Serial Ape-ist' and 'Serial Ape-ist 2: Monkey See, Monkey Kill'"    
      },
      {
