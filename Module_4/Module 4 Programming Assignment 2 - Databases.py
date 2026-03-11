@@ -102,3 +102,19 @@ curs.close()
 conn.close()
 
 print(titles)
+
+
+# Exercise 23-8:  Read SQLite database with SQLAlchemy and print titles
+print('\nExercise 23-8:  Read SQLite database with SQLAlchemy and print titles')
+
+import sqlalchemy as sa
+
+engine = sa.create_engine('sqlite:///books.db')
+with engine.connect() as conn:
+    result = conn.execute(sa.text("SELECT title FROM books ORDER BY title"))
+    books = result.fetchall()
+
+for book in books:
+    print(book)
+
+
